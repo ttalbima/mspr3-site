@@ -80,4 +80,5 @@ use PHPUnit\Framework\TestCase;
         $this->assertSame('40000', $manuel->getValue());
         $this->assertSame('40000', $amine->getValue());
     }
-}
+   
+}  
