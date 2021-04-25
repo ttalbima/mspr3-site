@@ -1,6 +1,6 @@
 language: php
 php:
-  - '8'
+  - '7.2.5'
     
 
 script:
