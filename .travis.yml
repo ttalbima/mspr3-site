@@ -6,3 +6,10 @@ php:
 script:
    - composer install
    - vendor/bin/simple-phpunit
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: mspr3-site
