@@ -8,7 +8,7 @@ script:
    - vendor/bin/simple-phpunit
 
 deploy:
-  provider: heroku
+  provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: build
