@@ -1,7 +1,6 @@
 language: php
 php:
-  - '5.3'
-dist: precise
+  - '8'
     
 
 script:
