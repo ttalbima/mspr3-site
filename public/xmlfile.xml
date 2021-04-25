@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/css" href="style2.css" ?>
+<carnet>
+    <data>
+        <uniqueID>1995</uniqueID>
+		<name>Fatou</name>
+		<value>valeureuse</value>
+    </data>
+</carnet>
