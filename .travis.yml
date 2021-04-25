@@ -1,12 +1,7 @@
 language: php
-sudo: false
-cache:
-    directories:
-        - $HOME/.composer/cache
-        - $HOME/symfony-bridge/.phpunit
-
 php:
-    - 7.2
+  - '5.2'
 
 script:
-    - ./vendor/bin/simple-phpunit --coverage-text --colors
+   - composer install
+   - vendor/bin/simple-phpunit
