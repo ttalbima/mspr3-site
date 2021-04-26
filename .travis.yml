@@ -5,6 +5,7 @@ php:
 
 script:
    - composer install
+
    - vendor/bin/simple-phpunit
 
 deploy:
@@ -14,10 +15,3 @@ deploy:
   skip-cleanup: true
   on:
     branch: dev
-=======
-  api_key:
-    secure: 9392cce6-020b-47b7-a9cc-d62272141d90
-  skip-cleanup: true
-  on:
-    branch: production
->>>>>>> bd4f9fb51180d38bdf86eaba167fde036875b035
