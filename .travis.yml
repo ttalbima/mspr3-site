@@ -8,8 +8,9 @@ script:
    - vendor/bin/simple-phpunit
 
 deploy:
-  provider: pages
+  provider: heroku
+  api_key:
+    secure: 9392cce6-020b-47b7-a9cc-d62272141d90
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
   on:
-    branch: master
+    branch: production
