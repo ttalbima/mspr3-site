@@ -10,8 +10,7 @@ script:
 
 deploy:
   provider: heroku
-<<<<<<< HEAD
   api_key: 9392cce6-020b-47b7-a9cc-d62272141d90
   skip-cleanup: true
   on:
-    branch: dev
+    branch: production
