@@ -51,10 +51,10 @@ class InfoController extends AbstractController
 
 
     // création des objects
-     $info =  new Info();
+     $info =  new Info($idInfo, $nomInfo, $valeurInfo);
      $info->setId( $idInfo);
-     $info->setName($nomInfo); 
-    $info->setValue( $valeurInfo );
+     $info->setName($nomInfo);
+     $info->setValue( $valeurInfo );
    
 
     //  envoie de la base donnée

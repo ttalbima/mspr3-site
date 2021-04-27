@@ -27,6 +27,13 @@ class Info
      */
     private $value;
 
+    public function __construct($id,$name,$value){
+        $this->id = $id;
+        $this->name = $name;
+        $this->value = $value;
+
+    }
+
     public function getId(): ?int
     {
         return $this->id;
