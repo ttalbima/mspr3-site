@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/css" href="style2.css" ?>
+<carnet>
+    <parent>
+       <nom id="famille">Jean Martin</nom>
+       <fonction>Pere</fonction>
+       <adresse>3 rue Descartes</adresse>
+    </parent>
+    <medecin>
+       <nom id="professionne1">Barel Annie</nom>
+       <fonction>Ophtalmo</fonction>
+       <adresse>12 rue de la fontaine</adresse>
+    </medecin>
+    <ami>
+       <nom id="ami">Desmarais Jacque</nom>
+       <adresse>3 rue de la forge</adresse>
+    </ami>
+</carnet>

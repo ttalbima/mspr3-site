@@ -5,31 +5,37 @@ namespace App\Entity;
 use App\Repository\InfoRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-/* @ORM\Entity(repositoryClass=InfoRepository::class)*/
+/**
+ * @ORM\Entity(repositoryClass=InfoRepository::class)
+ */
 class Info
 {
-    /* @ORM\Id
+    /**
+     * @ORM\Id
      * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")*/
+     * @ORM\Column(type="integer")
+     */
     private $id;
 
-    /* @ORM\Column(type="string", length=255)*/
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
     private $name;
 
-    /* @ORM\Column(type="string", length=255)*/
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
     private $value;
-
-      public function __construct($id,$name,$value){
-        $this->id = $id;
-        $this->name = $name;
-        $this->value = $value;
-
-    }
-
 
     public function getId(): ?int
     {
         return $this->id;
+    }
+    public function setId(int $id): self
+    {
+        $this->id = $id;
+
+        return $this;
     }
 
     public function getName(): ?string
