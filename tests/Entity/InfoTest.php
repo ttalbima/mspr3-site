@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
     public function testGetId()
     {
-        $info = new Info(1000,'Fatou','40000');
+        $info = new Info(1000,'Fatou','40;
         $this->assertSame(1000, $info->getId());
     }
 
